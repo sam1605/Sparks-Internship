@@ -9,12 +9,19 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     border: 2px brown;
-    background-image:  url(images/homebg.png);
-    background-position: auto;
-    background-size: cover;
+    background-image: url(images/homebg.png);
+    
 }
-.logo img{
-    width: 150px;
+
+/*.bg{
+    background-image:url(images/homebg.png);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: relative;
+    background-size: cover;
+}*/
+.logo{
+    background-image: url(Images/logo3.png);
 }
 nav{
     display:flex;
@@ -52,17 +59,21 @@ nav{
 .content{
     width: auto;
     color: darkolivegreen;
-    position: absolute;
+    position: relative;
     top: 30%;
     bottom: 50%;
     left: 10%;
     text-align: center;
     font-size: 35px;
+    align-content: center;
 }
 .inst{
     color: black;
     font-family: monospace;
     font-size: 25px;
+    text-align: center;
+    display: inline;
+    padding-top: 10px;
 
 }
 .hbtn{

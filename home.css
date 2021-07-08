@@ -1,12 +1,20 @@
 *{
     margin: 100;
     padding: 10;
+    
 }
 body{
-    background-color: antiquewhite;
+    min-height: 100vh;
+    position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     border: 2px brown;
+    background-image:  url(images/homebg.png);
+    background-position: auto;
+    background-size: cover;
+}
+.logo img{
+    width: 150px;
 }
 nav{
     display:flex;
@@ -14,6 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-links{
     flex: 1;
     text-align: right;
@@ -63,12 +72,12 @@ nav{
     text-decoration: none;
     background: transparent;
     position: relative;
-    color: teal;
+    color: rgb(0, 0, 0);
 
 }
 .hbtn:hover{
     border: 1px solid black ;
-    background: orange;
+    background: rgb(0, 33, 46);
     transition: 1s;
-    color: black;
+    color: rgb(255, 255, 255);
 }

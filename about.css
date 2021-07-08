@@ -3,10 +3,15 @@
     padding: 10;
 }
 body{
-    background-color: rgb(127, 189, 224);
+    background-image:  url(images/aboutbg.png);
+    background-position: auto;
+    background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     border: 2px brown;
+}
+.logo img{
+    width: 100px;
 }
 nav{
     display:flex;
@@ -50,16 +55,27 @@ nav{
     text-align: center;
     padding-top: 1%;
     font-size: 25px;
+    color: rgb(77, 2, 2);
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .conlist{
     list-style: none;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
+    color: black;
     
 }
+.desc{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 30px;
+    color: black;
+}
 .line{
+    border: solid black 5px ;
     text-decoration: wavy;
-    text-align: left;
+    text-align: center;
+    color: black;
 }
